@@ -6,11 +6,8 @@
 
         while (contador >= 1)
         {
-
-
             Console.WriteLine(contador);
             contador = contador - 1;
-
 
         }
     }
