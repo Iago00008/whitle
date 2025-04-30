@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿class Program
+{
+    static void Main()
+    {
+        int numero = -1;
+
+        while (numero >= -10)
+        {
+            Console.WriteLine(numero);
+            numero = numero - 1;
+        }
+    }
+}
